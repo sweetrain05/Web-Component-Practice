@@ -1,0 +1,13 @@
+h2 {
+    color: pink;
+}
+
+::part(topper) {
+    color: blue;
+    font-size: 6rem;
+}
+
+/* does not work
+::part(topper) span {
+    
+} */
